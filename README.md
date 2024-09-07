@@ -2,7 +2,7 @@
 
 An All in One Open-Source Non-Profit Learning Roadmap & Studio for Rosary Higher Secondary Students. Free Resources & Custom Learning for all students of the general & vocational stream. This Web App was made due to the lack of knowledge and external reference guides for all students in the offline market. The Rosary Digital Web app has all the resources you need covered for both the 11th & 12th High School Standards. This Project has been based on the State Board Curriculum.
 
-## Git Branches
+## Branch Management
 - master - The master branch consists of the web app project code files in accordance to the tech stack. Also consists of licensing, project readme & snapshot files.
 
 ## Technology
