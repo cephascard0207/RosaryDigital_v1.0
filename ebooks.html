@@ -397,6 +397,65 @@ h2.gradient-text {
         .card-body {
             text-align: center;
         }
+        #marq-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: white;
+            border-radius: 30px;
+            padding: 10px 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 500px;
+            overflow: hidden;
+        }
+        
+        #marq h6 {
+            background: linear-gradient(90deg, #1D87FF, #7A52FF, #4AB3FF);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 600;
+            margin-bottom: 10px;
+            text-align: center;
+            font-size: 1.2rem;
+        }
+
+        #marq-contributors {
+            display: inline-block;
+            white-space: nowrap;
+            animation: scrollText 10s linear infinite;
+            font-weight: 500;
+            font-size: 1rem;
+            color: black;
+            text-align: center;
+        }
+        
+        @keyframes scrollText {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+        
+        @media (max-width: 768px) {
+            #marq h6 {
+                font-size: 1rem;
+            }
+            #marq-contributors {
+                font-size: 0.85rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            #marq h6 {
+                font-size: 0.9rem;
+            }
+            #marq-contributors {
+                font-size: 0.75rem;
+            }
+        }    
     </style>
 </head>
 
