@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CTGuide | Choose your Class</title>
-    <link rel="icon" type="image/x-icon" href="ctguide_logo.png">
+    <title>Rosary Digital | Ebook Library</title>
+    <link rel="icon" type="image/x-icon" href="images/rosdigt.png">
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
 
@@ -331,7 +331,7 @@ footer {
     .cta-buttons {
         flex-direction: column;
     }
-
+    
     .cta-buttons a {
         margin-bottom: 15px;
         width: 100%;
@@ -352,6 +352,51 @@ footer {
     }
 }
     
+h2.gradient-text {
+            font-size: 2.5rem;
+            font-weight: 600;
+            color: #000000;
+            text-align: center;
+        }
+        h2 span{
+            font-size: 2.5rem;
+            font-weight: 600;
+            background: linear-gradient(90deg, #1D87FF, #7A52FF, #4AB3FF);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-align: center;
+        }
+
+        .container {
+            padding-top: 50px;
+        }
+
+        .card {
+            border: none;
+            transition: transform 0.2s ease-in-out;
+            cursor: pointer;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            border-radius: 8px;
+        }
+
+        .card-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-top: 15px;
+        }
+
+        .card-body {
+            text-align: center;
+        }
     </style>
 </head>
 
@@ -374,10 +419,10 @@ footer {
                         <a class="nav-link btn-learn-now" href="index.html">Free Courses</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn-learn-now" href="#">E-Books</a>
+                        <a class="nav-link btn-learn-now" href="ebooks.html">E-Books</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Roadmap</a>
+                        <a class="nav-link" href="https://www.canva.com/design/DAGOLzK4bBg/p3tzvZD39eXGe__VanKtMQ/view?utm_content=DAGOLzK4bBg&utm_campaign=designshare&utm_medium=link&utm_source=editor">Roadmap</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link btn-learn-now" href="#">Learn Studio</a>
@@ -388,71 +433,43 @@ footer {
     </nav>
     
     <!-- Main Content -->
-    <div class="container-fluid bg-gradient py-5">
+    <div class="container">
+        <h2 class="gradient-text mb-5">Ebook <span>Library</span></h2>
         <div class="row">
-            <center>
-            <!-- Search Results -->
-            <div class="col-lg-9">
-                <!--div class="mb-4">
-                    <input type="text" class="form-control form-control-lg" placeholder="Search for a specific extracurricular (Ex: Robotics)">
-                </div-->
-                
-                <!--p>View Learning Resources Below</p-->
-                <h2>EBook <span>Library</span></h2><br>
-                <div class="card mb-4 shadow-sm">
-                    <div class="row g-0">
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Class 11 Computer Technique</h5>
-                                <p class="card-text">Discover a curated collection of learning resources, detailed notes, and code files tailored for Class 11 students. Access links to multiple educational websites and free courses that come with certifications, all aligned with the State Board curriculum.</p>
-                                <div class="d-flex flex-wrap gap-2">
-                                    <span class="badge bg-info text-dark">HTML</span>
-                                    <span class="badge bg-info text-dark">CSS</span>
-                                    <span class="badge bg-info text-dark">JavaScript</span>
-                                    <span class="badge bg-info text-dark">Python</span>
-                                    <span class="badge bg-info text-dark">Algorithms</span>
-                                    <span class="badge bg-info text-dark">Flowcharts</span>
-                                    <span class="badge bg-info text-dark">MS Word</span>
-                                    <span class="badge bg-info text-dark">MS Access</span>
-                                    <span class="badge bg-info text-dark">Program Devlopment</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 d-flex flex-column align-items-center justify-content-center p-3">
-                            <img src="images/1.jpg" alt="Key Club" class="img-fluid mb-3">
-                            <a href="class11studio.html" class="btn btn-primary" >View 11<sup>th</sup> Resources</a>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="card mb-4 shadow-sm">
-                    <div class="row g-0">
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Class 12 Computer Technique</h5>
-                                <p class="card-text">
-                                    Dive into a wealth of learning resources tailored for Class 12 students, featuring detailed notes, code files, and much more. Access curated links to educational websites and free certification courses, along with additional resources and references aligned with the State Board examination syllabus.</p>
-                                <div class="d-flex flex-wrap gap-2">
-                                    <span class="badge bg-info text-dark">DBMS</span>
-                                    <span class="badge bg-info text-dark">SQL</span>
-                                    <span class="badge bg-info text-dark">PHP</span>
-                                    <span class="badge bg-info text-dark">Intermediate Python</span>
-                                    <span class="badge bg-info text-dark">Obkect Oriented Programming</span>
-                                    <span class="badge bg-info text-dark">Networking Concepts</span>
-                                    <span class="badge bg-info text-dark">Addional HTML Concepts</span>
-                                    <span class="badge bg-info text-dark">MS Access</span>
-                                    <span class="badge bg-info text-dark">Program Devlopment</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 d-flex flex-column align-items-center justify-content-center p-3">
-                            <img src="images/2.jpg" alt="NHS" class="img-fluid mb-3">
-                            <a href="class12studio.html" class="btn btn-primary">View 12<sup>th</sup> Resources</a>
-                        </div>
+            <!-- eBook 1 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100" onclick="redirectToEbook('ebook1.html')">
+                    <img src="ebook1.jpg" class="card-img-top img-fluid" alt="eBook 1">
+                    <div class="card-body">
+                        <h5 class="card-title">eBook Title 1</h5>
+                        <p class="card-text">A brief description of eBook 1.</p>
                     </div>
                 </div>
             </div>
+            
+            <!-- eBook 2 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100" onclick="redirectToEbook('ebook2.html')">
+                    <img src="ebook2.jpg" class="card-img-top img-fluid" alt="eBook 2">
+                    <div class="card-body">
+                        <h5 class="card-title">eBook Title 2</h5>
+                        <p class="card-text">A brief description of eBook 2.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- eBook 3 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100" onclick="redirectToEbook('ebook3.html')">
+                    <img src="ebook3.jpg" class="card-img-top img-fluid" alt="eBook 3">
+                    <div class="card-body">
+                        <h5 class="card-title">eBook Title 3</h5>
+                        <p class="card-text">A brief description of eBook 3.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- More eBooks (as needed) -->
         </div>
     </div>
 </center>
@@ -507,3 +524,6 @@ footer {
 </body>
 
 </html>
+
+
+
